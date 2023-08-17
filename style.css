@@ -1,0 +1,149 @@
+ body{
+    background-color: rgb(60, 126, 148);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+
+/* body{
+    background: linear-gradient(45deg, rgb(60, 126, 148) 25%, transparent 25%, transparent 75%, rgb(60, 126, 148) 75%, rgb(60, 126, 148));
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+
+
+
+
+
+
+
+.main-cont{
+    width: 50%;
+}
+/* 
+main{
+    width: 50%;
+} */
+
+main>h3{
+    margin: auto;
+    margin-top: 5vh;
+    /* margin-bottom: 2vh; */
+    width: 40%;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(12, 12, 152);
+    background-color: white;
+    border-bottom: 1px gray solid;
+    
+}
+
+form{
+    margin: auto;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+    width: 40%;
+    background-color: rgb(237, 233, 233);
+    border-radius: 0 0 20px 20px;
+}
+
+.input-cont{
+    display: inline-block;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.input-cont>label{
+    color: rgb(40, 40, 176);
+    font-size: 18px;
+}
+
+.input-cont>input{
+    width: 5vw;
+    height: 5vh;
+    border: 1px solid blue;
+    
+}
+
+/* form>button{
+    width: 5vw;
+    height: 4vh;
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
+    background-color: rgba(0, 0, 255, 0.548);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    
+} */
+
+form>button{
+    width: 10vw;
+    height: 6vh;
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
+    background-color: rgba(0, 0, 255, 0.548);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+form>button:hover {
+    background-color: rgba(0, 0, 255, 0.8);
+    cursor: pointer;
+}
+
+
+form>h4{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(12, 12, 152);
+    
+}  
+
+
+
+
+/* Add these media queries at the end of your existing CSS */
+@media screen and (max-width: 768px) {
+    .main-cont {
+        width: 80%;
+    }
+
+    main > h3 {
+        width: 60%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .input-cont {
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .input-cont > input {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    form > button {
+        width: 100%;
+    }
+
+    form > h4 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
